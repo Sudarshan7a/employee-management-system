@@ -1,0 +1,30 @@
+{
+  "name": "acme-employee-directory",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Acme Directory — keyboard-first Employee Management SPA (React + Tailwind) with CRUD, org chart, time-travel undo and batch import.",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3000 --open",
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 3000",
+    "lint": "oxlint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "oxlint": "^1.81.0",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^3.4.13",
+    "vite": "^8.3.0"
+  }
+}
